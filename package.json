@@ -1,0 +1,28 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "aplicação web de venda de produtos",
+  "main": "App.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrosnow/e-commerce.git"
+  },
+  "author": "pedrosnow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrosnow/e-commerce/issues"
+  },
+  "homepage": "https://github.com/pedrosnow/e-commerce#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
