@@ -1,10 +1,3 @@
-const express = require("express");
-
-const app = express();
-
-app.get('/', (req, res)=>{
-    res.send('wello')
-});
-
+const app = require('./App/server');
 
 app.listen(3000)
